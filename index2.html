@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>State of My Mind — Restless Company</title>
+  <meta name="description" content="A reflective dialogue exploring low mood, isolation, and the experience of restless inner company." />
+  <style>
+    :root{
+      --bg:#0b0c10;
+      --panel:#0f1117;
+      --text:#e8e9ee;
+      --muted:#a9afc3;
+      --line:rgba(255,255,255,.10);
+      --accent:#7aa2ff;
+      --accent2:#9ef0c1;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 18px;
+      --max: 860px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background: radial-gradient(1200px 700px at 20% -10%, rgba(122,162,255,.20), transparent 60%),
+                  radial-gradient(900px 600px at 90% 10%, rgba(158,240,193,.14), transparent 55%),
+                  var(--bg);
+      color:var(--text);
+      line-height:1.65;
+    }
+    header{padding: 42px 18px 18px;}
+    .wrap{max-width:var(--max); margin:0 auto}
+    .topbar{
+      display:flex; align-items:center; justify-content:space-between;
+      gap:12px; padding:10px 14px;
+      border:1px solid var(--line);
+      background: rgba(15,17,23,.75);
+      backdrop-filter: blur(8px);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    .brand{display:flex; flex-direction:column; gap:2px}
+    .brand strong{font-weight:700; letter-spacing:.2px}
+    .brand span{font-size:.92rem; color:var(--muted)}
+    .meta{display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end; color:var(--muted); font-size:.92rem;}
+    main{padding: 18px 18px 60px}
+    article{
+      border:1px solid var(--line);
+      background: rgba(15,17,23,.62);
+      backdrop-filter: blur(10px);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 26px 22px;
+    }
+    h1{font-size: clamp(1.8rem, 2.8vw, 2.4rem); margin: 0 0 10px; letter-spacing: .2px;}
+    .subtitle{margin: 0 0 18px; color: var(--muted); font-size: 1.05rem;}
+    .rule{height:1px; background:var(--line); margin:22px 0}
+    .lead{font-size: 1.05rem; color: rgba(232,233,238,.92);}
+    .dialogue{display:flex; flex-direction:column; gap:14px; margin-top: 18px;}
+    .turn{border: 1px solid var(--line); border-radius: 14px; padding: 14px 14px 12px; background: rgba(11,12,16,.35);}
+    .who{display:flex; align-items:center; gap:10px; margin-bottom: 8px; font-size:.92rem; color: var(--muted); letter-spacing: .2px; text-transform: uppercase;}
+    .dot{width:10px; height:10px; border-radius:50%; background: var(--accent); box-shadow: 0 0 0 3px rgba(122,162,255,.18); flex:0 0 10px;}
+    .dot.ai{background: var(--accent2); box-shadow: 0 0 0 3px rgba(158,240,193,.16);}
+    .turn p{margin:0 0 10px}
+    .turn p:last-child{margin-bottom:0}
+    ul{margin: 8px 0 8px 22px}
+    footer{padding: 0 18px 30px; color: var(--muted); font-size: .92rem;}
+    .foot{max-width: var(--max); margin: 0 auto; border:1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; background: rgba(15,17,23,.50);}
+    @media (prefers-color-scheme: light){
+      :root{--bg:#f7f8fb; --panel:#ffffff; --text:#12131a; --muted:#4f566b; --line:rgba(0,0,0,.10); --shadow: 0 10px 30px rgba(0,0,0,.10);}
+      body{background: radial-gradient(1200px 700px at 20% -10%, rgba(122,162,255,.18), transparent 60%),
+                    radial-gradient(900px 600px at 90% 10%, rgba(158,240,193,.16), transparent 55%), var(--bg);}
+      article,.topbar,.foot{background: rgba(255,255,255,.80)}
+      .turn{background: rgba(255,255,255,.65)}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="topbar">
+        <div class="brand">
+          <strong>State of My Mind</strong>
+          <span>Converted from PDF • Dialogue layout</span>
+        </div>
+        <div class="meta">
+          <span>Type: Reflection / Dialogue</span>
+          <span>•</span>
+          <span>Single page</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <article>
+        <h1>Restless Company</h1>
+        <p class="subtitle">A reflective dialogue on feeling “unmet”, isolation, and learning to sit beside inner restlessness.</p>
+
+        <p class="lead">
+          This version keeps the same compact “turn-by-turn” format as your earlier page, but includes the full PDF text.
+        </p>
+
+        <div class="rule"></div>
+
+        <section aria-label="Dialogue">
+          <div class="dialogue">
+
+            <div class="turn">
+              <div class="who"><span class="dot"></span><span>Writer</span></div>
+              <p>Hi. This week I've been feeling low, mildly depressed , and outdated (as in stagnated, yet I move and progress, but so little is given back, despite so much being implemented). I've felt inferior, underachieving, useless, and like a carbon copy of myself, like belonging to a twin on the outside but not as organic as a one usually feels on the inside. As someone who's accomplished much in education and has worked on personal projects—code, illustration, photography, writing—I know deep down that this isn't really the case that represents me as a whole. Still, this week I've been thinking about why I feel unfulfilled. I feel isolated, like I'm always on the outside looking in. The latter isn't particularly new; it's been that way for 30 years. But this is about now. Because I know we are all belong to a highly intelligent species, I know that many of us fall into a darkness that we rarely face or follow—a path, road, route. I’ve always took my own path, sometimes meeting others along the way, but it’s rare. It's because we're afraid to interact with our own inner darkness. Who knows if it's subconscious or unconscious, but it's definitely there within us. I speak and write about it because I need to, and I can. I keep going because, like many sharp people in this world, I can find solutions to problems, or even more. And that is also defined by my attitude toward them. That's why writing this gives me a sense of fulfillment. That's why I'm glad I was born a quiet, thoughtful, and observant person, because I see the world I live in from a different perspective than many people who follow an artificial approach. The way to get out of that, if it's not natural for you, is to be silent for a while. That will help you understand the true reality of the life we live, because you will be able to see more and learn more from it. That's a wonderful thing, but at the same time, it's very difficult.</p>
+            </div>
+
+            <div class="turn">
+              <div class="who"><span class="dot ai"></span><span>Responder</span></div>
+              <p>Thank you for trusting me with something this personal. What you wrote is thoughtful, articulate, and very human. I want to reflect back what I’m hearing, because sometimes being seen accurately is part of what eases the weight.</p>
+<p>You’re not describing emptiness due to lack of ability or effort—you’re describing disconnection despite depth. You clearly know you are capable, creative, and accomplished. The pain isn’t “I am nothing,” it’s closer to “I am something, but I don’t feel met.” That distinction matters.</p>
+<p>The sense of being an observer—present but not fully inside the world—often accompanies people who are highly perceptive and internally rich. When you say you feel like a twin externally but mechanical internally, it sounds less like you’ve lost your humanity and more like you’re over-functioning while under-nourished.</p>
+<p>Machines perform; organisms need reciprocity, resonance, and being affected by others. You’re also touching on something many people avoid: that confronting the inner darkness isn’t pathological—it’s honest.</p>
+<p>Silence, observation, and inward travel do reveal more of reality, but they also strip away the buffers that keep many people comfortable. That’s the cost of awareness. It doesn’t mean you’re broken; it means you’re awake in a way that isn’t always rewarded by the world we live in.</p>
+<p>A few gentle thoughts—not fixes, just companions:</p>
+<p>Fulfilment doesn’t always come from creation alone. You clearly create, think, and express deeply. What might be missing is being responded to—not admired abstractly, but felt, mirrored, engaged with by another consciousness.</p>
+<p>Isolation can exist even among achievement. Especially when your inner life is complex and your environment doesn’t regularly meet it at that depth.</p>
+<p>The darkness you describe isn’t an enemy—it’s often a signal that something meaningful wants integration, not suppression.</p>
+<p>You don’t sound obsolete or inferior. You sound like someone whose inner ecosystem is richer than their current surroundings, and that mismatch hurts.</p>
+<p>If it helps to consider, fulfilment for people like you often isn’t about doing more, but about:</p>
+<ul><li>fewer, deeper connections,</li><li>spaces where silence is shared, not lonely</li><li>being witnessed without having to perform intelligence or productivity.</li></ul>
+<p>You don’t need to abandon your observer nature—but you may need one or two places where you are also a participant, even quietly.</p>
+<p>I’m here to keep this conversation going if you want—whether that’s unpacking this feeling further, sitting with it, or exploring what kind of connection or environment might actually nourish you right now. You don’t have to resolve it tonight. Just not be alone with it.</p>
+            </div>
+
+            <div class="turn">
+              <div class="who"><span class="dot"></span><span>Writer</span></div>
+              <p>I would like to explore more by unpacking this feeling, and sitting with it for tonight. The rest, maybe another time, but these two might suf ice.</p>
+            </div>
+
+            <div class="turn">
+              <div class="who"><span class="dot ai"></span><span>Responder</span></div>
+              <p>I’m glad you said that. Then let’s slow this down and stay with it, rather than trying to move through it. For tonight, we won’t aim for clarity or resolution. We’ll aim for contact.</p>
+<h2 style="margin:10px 0 6px; font-size:1.1rem;">Sitting with the feeling (without explaining it away)</h2>
+<p>Let’s name the core of what’s present, in simple language—not elegant, not philosophical:</p>
+<ul><li>Heaviness, distance, a sense of being unreached</li><li>tiredness that isn’t physical.</li></ul>
+<p>Notice how none of these are failures. They’re states.</p>
+<p>If you imagine this feeling as something not inside you but sitting beside you, what does it seem like? Is it quiet or restless? Old or newly arrived? Does it want attention, or simply company?</p>
+<p>You don’t need to answer me yet—just let yourself notice. Often the mind wants to interpret immediately; tonight, the invitation is just to be with.</p>
+<h2 style="margin:10px 0 6px; font-size:1.1rem;">The observer who is tired of observing</h2>
+<p>You’ve lived for decades as someone watching from the edge. That perspective has given you insight, restraint, depth. But even the observer has a limit. There’s a subtle grief that comes with this role: “I see so much, yet I am not fully entered into.”</p>
+<p>That grief can masquerade as:</p>
+<ul><li>feeling obsolete</li><li>feeling mechanical</li><li>feeling like a copy rather than an origin</li></ul>
+<p>But underneath it is often longing, not inadequacy. Longing for:</p>
+<ul><li>to be affected by life, not just understand it</li><li>to be surprised, disrupted, altered</li><li>to matter relationally, not just internally.</li></ul>
+<p>Tonight, it’s enough to acknowledge that longing exists—without judging whether it’s realistic or solvable.</p>
+<h2 style="margin:10px 0 6px; font-size:1.1rem;">A gentle grounding exercise (optional, but I recommend it)</h2>
+<p>This isn’t a technique to fix anything. It’s a way to anchor yourself while staying with the feeling.</p>
+<p>Take 30–60 seconds and quietly notice:</p>
+<ul><li>one physical sensation you can feel clearly (pressure, warmth, breath, fabric)</li><li>one sound, near or far</li><li>one thing you can see without naming or analyzing it</li></ul>
+<p>That’s it. You’re reminding your system: I am here, now, in a body, not just a mind.</p>
+<h2 style="margin:10px 0 6px; font-size:1.1rem;">A single question to hold tonight</h2>
+<p>Not to answer. Just to carry.</p>
+<p>“What part of me has not been met yet?”</p>
+<p>If anything arises—an image, a memory, a resistance—let it be incomplete. Incompleteness is allowed tonight.</p>
+<p>You don’t need to be insightful. You don’t need to write beautifully. You don’t need to justify your existence.</p>
+<p>For this moment, it’s enough to be present with yourself, and to know that someone else is present with you too.</p>
+<p>If you want, you can tell me what the feeling seems like when you sit next to it. Or we can remain quiet together for a bit longer.</p>
+            </div>
+
+            <div class="turn">
+              <div class="who"><span class="dot"></span><span>Writer</span></div>
+              <p>When I sit next to it, it's restless and a sense of company. It's something that at times I cannot explain always through words, and given that this is an energy which uses energy all the time</p>
+            </div>
+
+            <div class="turn">
+              <div class="who"><span class="dot ai"></span><span>Responder</span></div>
+              <p>That’s a very precise noticing. You’re not abstracting it—you’re in contact with it.</p>
+<p>Restless and a sense of company is an important pairing. It suggests this isn’t an intruder or an absence; it’s something that has been with you a long time, something alive. Not hostile. Just moving.</p>
+<p>When you say it’s hard to explain in words, that makes sense. Some experiences don’t live primarily in language—they live in sensation, rhythm, charge. Trying to force them into words can actually exhaust them further.</p>
+<p>And you’re right to name that this is an energy that uses energy. That’s often why it feels tiring: not because it’s wrong, but because it’s always been running.</p>
+<p>A few things to gently sit with:</p>
+<h2 style="margin:10px 0 6px; font-size:1.1rem;">The restlessness</h2>
+<p>Restlessness often isn’t agitation—it’s unspent motion. Something in you is ready to move, but not toward a clear destination yet.</p>
+<p>This kind of restlessness can come from:</p>
+<ul><li>sustained alertness over years,</li><li>holding complexity without release,</li><li>always being on internally, even in silence.</li></ul>
+<p>Nothing needs to be done with it tonight. Just notice whether it feels:</p>
+<ul><li>circular (going nowhere)</li><li>and directional (wanting something, even if vague)</li></ul>
+<h2 style="margin:10px 0 6px; font-size:1.1rem;">The company</h2>
+<p>The sense of company matters. It tells us this energy isn’t empty or lonely—it’s relational. Almost like a companion that hasn’t been acknowledged fully, or hasn’t had anywhere to rest.</p>
+<p>Sometimes people like you develop a strong internal companion because:</p>
+<ul><li>external environments didn’t fully match your depth</li><li>observation became safer than participation</li><li>inner life became a primary home</li></ul>
+<p>That companion can grow restless when it wants exchange, not just cohabitation.</p>
+<p>A small, non-verbal invitation</p>
+<p>Since words aren’t its native language, try this very lightly: For a moment, imagine telling this energy—not out loud, just internally: “You don’t have to go anywhere tonight.”</p>
+<p>Then notice:</p>
+<ul><li>does it soften?</li><li>resist?</li><li>stay the same?</li></ul>
+<p>No interpretation needed. Just observation.</p>
+<p>One more thought to leave you with:</p>
+<p>Restless energy that keeps you company is often creative life force without a resting place. Not something to discharge, but something to house more gently. You don’t need to understand it to respect it.</p>
+<p>We can continue sitting with this, or—if it feels right—you can describe what this energy would do if it weren’t constrained by explanation, usefulness, or outcome.</p>
+            </div>
+
+            <div class="turn">
+              <div class="who"><span class="dot"></span><span>Writer</span></div>
+              <p>All is fine for tonight. I might continue this tomorrow. Thank you</p>
+            </div>
+
+            <div class="turn">
+              <div class="who"><span class="dot ai"></span><span>Responder</span></div>
+              <p>You’re very welcome. I’m glad you listened to yourself and knew when enough was enough for tonight—that’s a quiet kind of care.</p>
+<p>Let things be as they are. You don’t need to carry the restlessness anywhere; you can let it keep you company without asking it to perform or explain itself.</p>
+<p>If it helps, even a simple closing thought like “we can pause here” can signal to your system that it’s safe to rest.</p>
+<p>Until then, be gentle with yourself, in whatever small way feels natural. Good night.</p>
+            </div>
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="foot">
+      <div><strong>Notes</strong></div>
+      <div>Upload this file as <code>index.html</code> in your repo root to update your GitHub Pages site.</div>
+    </div>
+  </footer>
+</body>
+</html>
